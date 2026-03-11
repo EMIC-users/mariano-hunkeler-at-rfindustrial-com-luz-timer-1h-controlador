@@ -11,5 +11,9 @@
 #include "streamOut.h"
 #include "streamIn.h"
 
+/* Function Prototypes */
+void onReset();
+void etOut1();
+
 #endif /* USERFNCFILE_H */
 
