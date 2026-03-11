@@ -20,7 +20,7 @@ void onReset()
 
 void etOut1()
 {
-    if (equals(/* unsupported parameter type: emic-data-variable */, 0))
+    if (/* unsupported parameter type: emic-data-variable */)
     {
     }
 }
