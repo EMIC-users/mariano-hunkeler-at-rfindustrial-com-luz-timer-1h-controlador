@@ -14,15 +14,13 @@
 
 void onReset()
 {
-    setTime1(60000, 'T');
+    relay_Relay1(0);
+    setTime1(60000, 'A');
 }
 
 
 void etOut1()
 {
-    if (/* unsupported parameter type: emic-data-variable */)
-    {
-    }
 }
 
 
