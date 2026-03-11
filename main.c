@@ -21,12 +21,9 @@ int main(void)
 	LEDs_LED1_init();
 	LEDs_LED2_init();
 	LEDs_LED3_init();
-	initRelay_Relay1();
 	EMICBus_init();
-	onReset();
 	do
 	{
-		timer1_Poll();
 		poll_EMICBus();
 	}
 	while(1);
